@@ -1,0 +1,106 @@
+/* *{
+    margin:0;
+    padding:0;
+}
+
+body{
+    position:relative;
+}
+html{
+    
+     
+    overflow-x: hidden;
+height: 100%;
+}
+
+
+
+#jumbo{
+  text-align: center;
+    background-image:url("white-headphone.jpg");
+background:cover;
+border-radius:0px;
+padding-top:120px;
+
+}
+
+.col-centered{
+    margin: 0 auto;
+   
+}
+.about-data{
+background-image:url("white-headphone.jpg");
+background:cover;
+border-radius:0px;
+margin:0px;
+}
+.section-add{
+    padding-top:30px;
+    padding-bottom:40px;
+
+}
+.jumbo-footer{
+    
+    background:aqua;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-top:50px;
+}
+
+#app-store-button{
+width:170px;
+}
+
+*/
+body{
+    background:url("weatherscrapper-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.style-container{
+   
+    width:25%;
+  margin:10% auto;
+  background-color: rgba(0,0,0,.3);
+  border-radius:5px;
+}
+.sign-Up{
+    width:100%;
+    margin:0 auto;
+  text-align:center;
+  
+}
+.log-In
+{
+    
+        width:100%;
+        margin:0 auto;
+      text-align:center;
+    
+}
+.label-style{
+    color:white;
+}
+.h1-secretDiary{
+    text-align:center;
+    color:white;
+}
+#logIn{
+    display:none;
+}
+.toggleForm{
+   
+    color:rgb(9, 202, 209) !important;
+    cursor:pointer;
+}
+.toggleForm:hover{
+    color:white !important;
+}
+textarea{
+    
+    margin-top:20px;
+}
