@@ -2,7 +2,7 @@
 /*
 
 if(array_key_exists('email',$_POST) OR array_key_exists('password',$_POST)){
-  $link = mysqli_connect("shareddb-t.hosting.stackcp.net","","","");
+  $link = mysqli_connect("","","","");
   if(mysqli_connect_error()){
    die ("Can not connect to the database");
   }
@@ -45,7 +45,7 @@ if(array_key_exists('email',$_POST) OR array_key_exists('password',$_POST)){
 session_start();
 
 if(array_key_exists('email',$_POST) OR array_key_exists('password',$_POST)){
-  $link = mysqli_connect("shareddb-t.hosting.stackcp.net","","","");
+  $link = mysqli_connect("","","","");
   if (mysqli_connect_error()){
 die ("Can't connect to the database at this time");
   }
